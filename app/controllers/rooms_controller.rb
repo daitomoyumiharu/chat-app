@@ -18,6 +18,6 @@ class RoomsController < ApplicationController
     params.require(:room).permit(:name, user_ids:[])
   end
 
-  validates :name , presence:true
+  
 
 end
